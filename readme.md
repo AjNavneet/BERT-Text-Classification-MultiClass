@@ -4,18 +4,26 @@
 
 In this project, we leverage the power of BERT (Bidirectional Encoder Representations from Transformers), a pre-trained model for Natural Language Processing (NLP), to perform multi-class text classification. BERT, developed by Google, is renowned for its state-of-the-art performance in various NLP tasks.
 
+---
+
 ## Aim
 
 The primary objective is to conduct multi-class text classification on a dataset comprising over two million customer complaints related to consumer financial products. This involves associating each complaint with a specific product category. To enhance text representation, we use pre-trained word vectors from the GloVe dataset (glove.6B).
+
+---
 
 ## Data Description
 
 The dataset includes columns for the text of the complaint and the associated product category. To handle the text, we utilize pre-trained word vectors from GloVe. The dataset will be preprocessed to handle null values, duplicate labels, and convert the text into a suitable format for model training.
 
+---
+
 ## Tech Stack
 
 - Language: `Python`
 - Libraries: `pandas`, `torch`, `nltk`, `numpy`, `pickle`, `re`, `tqdm`, `sklearn`, `transformers`
+
+---
 
 ## Approach
 
@@ -58,6 +66,8 @@ Define configuration file paths to manage data and model-related parameters.
 - Test the model.
 
 ### 7. Make Predictions on New Text
+
+---
 
 ## Modular Code Overview
 
